@@ -5,11 +5,6 @@ body{
     background: url("4.jpg") no-repeat center center fixed;
     background-size: cover;
 }
-.Table{
-  margin-left:5% ;
-  margin-right: 5%;
-}
-
 #L1{
   float: left;
   line-height: 1;
@@ -148,12 +143,19 @@ p{
 }
 
 /*=========Table========*/
+
+
+.Table{
+  margin-left:5% ;
+  margin-right: 5%;
+}
+
 .content-table {
   background-color: rgb(228, 228, 228);  
   border-collapse: collapse;
-  margin: 0 0 25px 0;
-  font-size: 15px;
+  margin: 0%;
   width: 100%;
+  font-size: 15px;
   border-radius: 5px 5px 0 0;
   overflow: hidden;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
@@ -185,6 +187,14 @@ p{
   border-bottom: 2px solid #9e0463;
 }
 
+@media (max-width:450px) {
+  
+  .Table{
+    margin-left:3% ;
+    margin-right:3%;
+  }
+  
+  }
 
 @media(max-width:407px){
   h3 span {
@@ -198,7 +208,12 @@ p{
   }
   .content-table{
     font-size: 12px;
+  }  
+  .Table{
+    margin-left:2% ;
+    margin-right: 2%;
   }
+
 }
 
 
@@ -223,6 +238,20 @@ p{
     width: 60px;
     height: 30px;
   }
+  
+  .Table{
+    margin-left:1% ;
+    margin-right: 1%;
+  }
+
+}
+@media (max-width:330px) {
+  
+.Table{
+  margin-left:0% ;
+  margin-right:0%;
+}
+
 }
 
 /*=======Footer=========*/
@@ -275,4 +304,5 @@ p{
   font-size: 15px;
   color: black;
 }
+
 
